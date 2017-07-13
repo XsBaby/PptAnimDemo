@@ -45,12 +45,12 @@ public class MainActivity extends AppCompatActivity {
 //                ObjectAnimator moveIn = ObjectAnimator.ofFloat(text, "translationX", 0f, 100f);
 //                ObjectAnimator rotate = ObjectAnimator.ofFloat(text, "rotation", 0f, 360f, 0f, 360f, 0f, 360f);
                 ObjectAnimator fadeInOut = ObjectAnimator.ofFloat(text, "alpha", 1f, 0f, 1f, 0f, 1f, 0f, 1f, 0f, 1f, 0f, 1f);
-                ObjectAnimator scale = ObjectAnimator.ofFloat(text, "scaleX", 1f, 0f, 1f, 0f, 1f, 0f, 1f, 0f, 1f, 0f, 1f, 0f, 1f);
+                ObjectAnimator scale = ObjectAnimator.ofFloat(text, "scaleY", 1f, 0f, 1f, 0f, 1f, 0f, 1f, 0f, 1f, 0f, 1f, 0f, 1f);
                 AnimatorSet animSet = new AnimatorSet();
                 //play：开始   with：和/与 after：在..之后执行动画    before：在..之前执行动画
                 animSet.play(fadeInOut).with(scale);
                 //持续时间
-                animSet.setDuration(5000);
+                animSet.setDuration(10000);
                 //开始动画
                 animSet.start();
             }

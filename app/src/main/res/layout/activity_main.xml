@@ -12,7 +12,8 @@
         android:layout_alignParentTop="true"
         android:layout_centerHorizontal="true"
         android:layout_marginTop="58dp"
-        android:text="测试代码"/>
+        android:text="测试代码"
+        android:textSize="30sp"/>
 
     <Button
         android:id="@+id/btn"
