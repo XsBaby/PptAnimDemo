@@ -38,6 +38,7 @@ public class MainActivity extends AppCompatActivity {
 //                ObjectAnimator animator = ObjectAnimator.ofFloat(text, "translationX", 0f, 100f);
                 //持续时间
 //                animator.setDuration(5000);
+
                 //开始动画
 //                animator.start();
 
